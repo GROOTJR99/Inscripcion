@@ -1,0 +1,90 @@
+body{
+    background-image: url(img_background/tree_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; /* Con esto le doy formato de celda a todo el cuerpo, de esa manera se lo puede manipular de mejor manera*/
+    justify-content: center;
+    align-items: center; /* Con estas dos etiquetas de css puedo alinear y centrar los elementos en este caso el body*/
+    height: 100vh; /* Con esto le especifico la altura a la que va estar ubicado*/
+    margin: 0;
+    flex-direction: column; /* Estable la direccion que tomara el eje en este caso vertical */
+}
+form{
+    background-color: aqua;
+}
+.container_register{
+    position: relative;
+    display: block;
+}
+
+form{
+    width: 280px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 6rem;
+    background-color: rgba(53, 0, 83, 0.849);
+    border: none;
+    border-radius: 30px;
+    color: aliceblue;
+    box-shadow: 10px 5px 5px black;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+}
+
+label{
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300px;
+}
+
+input{
+    padding-left: 40px;
+    padding-right: 30px;
+    display: block;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    transition: background-color 1s;
+    color: rgb(255, 255, 255);
+    background-color:rgb(119, 35, 115);
+}
+
+input:focus{
+    background: -webkit-linear-gradient(90deg,#fcf3f5,#edb1d0); background: linear-gradient(90deg,#fcf3f5,#edb1d0); 
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+hr{
+    height: 3px;
+    background-color: black;
+}
+
+button{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,9,121,1) 35%, rgba(184,0,255,1) 100%);
+       border-radius: 30px;
+       transition: 0.5s;
+       cursor: pointer;
+       position: relative;
+       top: 30px;
+       padding: 10px 10px;
+       color: whitesmoke;
+       font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ok{
+    background-color: red;
+
+padding: 400px;
+}

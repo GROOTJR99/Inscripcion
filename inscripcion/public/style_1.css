@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.Bienvenida{
+    padding: 170px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img_background/two_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.encabezado{
+    color: whitesmoke;
+    font-size: 100px;
+    position: relative;
+    bottom: 100px;
+    right: 140px;
+}
+.sub_encabezado{
+    color: whitesmoke;
+    position: relative;
+    bottom: 80px;
+    right: 140px;
+}
+iframe{
+    position: absolute;
+    bottom: 200px;
+    left: 110vh;
+    border-radius: 30px;
+}
+button{
+    padding: 30px;
+    border-radius: 40px;
+    background: rgb(153,54,37);
+background: linear-gradient(90deg, rgba(153,54,37,1) 11%, rgba(158,42,147,1) 31%, rgba(161,35,204,1) 68%, rgba(255,0,65,1) 100%);
+    color: whitesmoke;
+}
+.container{
+    display: flex;
+    height: 300px;
+    width: 900rem;
+    
+}
+.container .card{
+    padding: 30px 80px;
+    margin: 40px;
+    background-image: url(img_background/card_4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+}
+
